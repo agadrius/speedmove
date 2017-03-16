@@ -24,14 +24,36 @@
 		<!-- slider -->
 		<?php include 'include/slider.php';?><!-- slider includes -->
 		<!-- corps de la page -->
-		<div class="row" id="corps_page">
-			<section class="col-lg-12" id="services"><!-- services -->
+			<section class="row" id="services"><!-- services -->
+				<h2>Nos services</h2>
+				<div class="col-md-4" id="service_taxi">
+					<img src="images/taxi-mini.jpg" alt="service taxi">
+					<h3>Service de taxi</h3>
+					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
+				</div>
+				<div class="col-md-4" id="service_navette">
+					<img src="images/taxi-mini.jpg" alt="service navette">
+					<h3>Navette Aéroport et Gares</h3>
+					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
+				</div>
+				<div class="col-md-4" id="service_livraison">
+					<img src="images/colis-min.jpg" alt="service livraison">
+					<h3>Livrasion de colis</h3>
+					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
+				</div>
 			</section>
-			<section class="col-lg-12" id="contact"><!-- contact -->
+			<section class="row" id="contact"><!-- contact -->
+				<div class="col-md-12">
+					<h2>Comment nous contacter ?</h2>
+					<p>bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla</p>
+				</div>
 			</section>
-			<section class="col-lg-12" id="joint_us"><!-- nous rejoindre -->
+			<section class="row" id="joint_us"><!-- nous rejoindre -->
+				<div class="col-md-12">
+					<h2>Nous Rejoindre</h2>
+					<p>bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla</p>
+				</div>
 			</section>
-		</div>
 		<!-- footer -->
 		<?php include 'include/footer.php';?><!-- footer includes -->		
 	</div>
