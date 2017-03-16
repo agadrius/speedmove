@@ -39,6 +39,16 @@ footer
 	margin-top: 50px;
 	text-align: center;
 }
+#service_taxi a, #service_navette a, #service_livraison a
+{
+	color: black;
+}
+#service_taxi a:hover, #service_navette a:hover, #service_livraison a:hover
+{
+	color: blue;
+	font-style: italic;
+	
+}
 section h2
 {
 	border-bottom: 1px solid #f87d09;
