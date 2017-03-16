@@ -26,17 +26,17 @@
 		<!-- corps de la page -->
 			<section class="row" id="services"><!-- services -->
 				<h2>Nos services</h2>
-				<div class="col-md-4" id="service_taxi">
+				<div class="col-sm-6 col-md-4" id="service_taxi">
 					<img src="images/taxi-mini.jpg" alt="service taxi">
 					<h3>Service de taxi</h3>
 					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
 				</div>
-				<div class="col-md-4" id="service_navette">
+				<div class="col-sm-6 col-md-4" id="service_navette">
 					<img src="images/taxi-mini.jpg" alt="service navette">
 					<h3>Navette Aéroport et Gares</h3>
 					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
 				</div>
-				<div class="col-md-4" id="service_livraison">
+				<div class="col-sm-6 col-md-4" id="service_livraison">
 					<img src="images/colis-min.jpg" alt="service livraison">
 					<h3>Livrasion de colis</h3>
 					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
