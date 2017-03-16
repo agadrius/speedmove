@@ -11,14 +11,24 @@ nav, section
 }
 /* header */
 /* menu */
+.navbar
+{
+	border: none;
+	background-color: #FFFFFF;
+	font-size: 2em;
+}
 #navbar
 {
-	width: 100%;
-	margin: 0 auto;
-	font-size: 2em;
+	
 }
 /* slider */
 /* footer */
+footer
+{
+	border-top: 1px solid black;
+	background-color: #004a55;
+	color: #FFFFFF;
+}
 /*index */
 
 #service_taxi, #service_navette, #service_livraison /* services */
