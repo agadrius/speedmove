@@ -19,10 +19,10 @@
   <body>
 	<div class="container">
 		<?php include 'include/header.php';?><!-- header includes -->
-		<!-- slider -->
-		<?php include 'include/slider.php';?><!-- slider includes -->
 		<!-- navigation -->
 		<?php include 'include/menu.php';?><!-- menu includes -->
+		<!-- slider -->
+		<?php include 'include/slider.php';?><!-- slider includes -->
 		<!-- corps de la page -->
 		<div class="row" id="corps_page">
 			<section class="col-lg-12" id="services"><!-- services -->
