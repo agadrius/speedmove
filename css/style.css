@@ -13,13 +13,16 @@ nav, section
 /* menu */
 .navbar
 {
-	border: none;
-	background-color: #FFFFFF;
 	font-size: 2em;
 }
-#navbar
+li
 {
-	
+	margin-right: 10px;
+}
+.navbar-default .navbar-nav > li > a:hover 
+{
+	color: #f87d09;
+	border-top: 1px solid #f87d09;
 }
 /* slider */
 /* footer */
