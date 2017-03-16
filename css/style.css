@@ -1,0 +1,28 @@
+/* polices */
+
+/* mise en place générale */
+header, footer 
+{
+	margin-top: 50px;
+}
+nav, section
+{
+	margin-top: 10px;
+}
+/* header */
+/* menu */
+/* slider */
+/* footer */
+/*index */
+
+#service_taxi, #service_navette, #service_livraison /* services */
+{
+	margin-top: 20px;
+	text-align: center;
+}
+section h2
+{
+	border-bottom: 1px solid #f87d09;
+	color: #f87d09;
+	padding-left: 10px;
+}
