@@ -1,4 +1,4 @@
-<div class="row" id="slider">
+<div class="row hidden-xs" id="slider">
 	<div id="carousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="item active"> <img alt="" src="images/multivan.jpg"></div>
