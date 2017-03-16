@@ -26,3 +26,7 @@ section h2
 	color: #f87d09;
 	padding-left: 10px;
 }
+#contact p, #joint_us p
+{
+	margin-top: 30px;
+}
