@@ -35,20 +35,17 @@
 				<div class="col-sm-6 col-md-4" id="service_navette">
 					<a href="#"><img src="images/taxi-mini.jpg" alt="service navette">
 					<h3>Navette Aéroport et Gares</h3>
-					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
 					<p>Plus d'informations</p></a>
 				</div>
 				<div class="col-sm-6 col-md-4" id="service_livraison">
 					<a href="#"><img src="images/colis-min.jpg" alt="service livraison">
 					<h3>Livrasion de colis</h3>
-					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
 					<p>Plus d'informations</p></a>
 				</div>
 			</section>
 			<section class="row" id="contact"><!-- contact -->
 				<div class="col-md-12">
 					<h2>Comment nous contacter ?</h2>
-					<p>bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla</p>
 				</div>
 			</section>
 			<section class="row" id="joint_us"><!-- nous rejoindre -->
