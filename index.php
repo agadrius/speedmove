@@ -46,12 +46,14 @@
 			<section class="row" id="contact"><!-- contact -->
 				<div class="col-md-12">
 					<h2>Comment nous contacter ?</h2>
+					<p>Vous pouvez nous contacter au <a href="tel:0032471515665">+32(0)471/51.56.65</a>, via notre formulaire de demande de <a href="#">devis</a> ou de <a href="#">contact</a>.</p>
 				</div>
 			</section>
 			<section class="row" id="joint_us"><!-- nous rejoindre -->
 				<div class="col-md-12">
 					<h2>Nous Rejoindre</h2>
-					<p>bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla</p>
+					<p>Rejoigner notre page <a href="#">facebook</a></p>
+					
 				</div>
 			</section>
 	</div>
