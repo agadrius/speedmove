@@ -29,7 +29,6 @@
 				<div class="col-sm-6 col-md-4" id="service_taxi">
 					<a href="#"><img src="images/taxi-mini.jpg" alt="service taxi">
 					<h3>Service de taxi</h3>
-					<p>bla blabla blabla blabla blabla blabla blabla blabla bla</p>
 					<p>Plus d'informations</p></a>
 				</div>
 				<div class="col-sm-6 col-md-4" id="service_navette">
