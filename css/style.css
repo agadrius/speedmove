@@ -32,6 +32,10 @@ footer
 	background-color: #363839;
 	color: #FFFFFF;
 }
+footer p
+{
+	color: #8c8989;
+}
 /*index */
 
 #service_taxi, #service_navette, #service_livraison /* services */
