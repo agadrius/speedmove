@@ -13,7 +13,7 @@
 		</div>
 		<div class="col-md-3">
 			<h3>Nous rejoindre</h3>
-			<img src="" alt="logo fb">
+			<a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a><!-- logo fb -->
 		</div>
 	</div>
 	

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<!-- bootstrap core css -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- custome template -->
@@ -51,7 +52,7 @@
 			<section class="row" id="joint_us"><!-- nous rejoindre -->
 				<div class="col-md-12">
 					<h2>Nous Rejoindre</h2>
-					<p>Rejoigner notre page <a href="#">facebook</a></p>
+					<p>Rejoigner notre page <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></p><!-- logo fb -->
 					
 				</div>
 			</section>
