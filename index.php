@@ -47,7 +47,7 @@
 			<section class="row" id="contact"><!-- contact -->
 				<div class="col-md-12">
 					<h2>Comment nous contacter ?</h2>
-					<p>Vous pouvez nous contacter au <a href="tel:0032471515665">+32(0)471/51.56.65</a>, via notre formulaire de demande de <a href="#">devis</a> ou de <a href="#">contact</a>.</p>
+					<p>Vous pouvez nous contacter au <a href="tel:0032471515665"><strong>+32(0)471/51.56.65</strong></a>, via notre formulaire de demande de <a href="#"><em>devis</em></a> ou de <a href="#"><em>contact</em></a>.</p>
 				</div>
 			</section>
 			<section class="row" id="joint_us"><!-- nous rejoindre -->

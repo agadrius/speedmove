@@ -4,7 +4,7 @@
 			<h3>Coordonnées</h3>
 			<p>Speed-Move</br>
 			Place Paul Dubois 198</br>
-			5550 sugny</br>
+			<em>5550</em> <strong>sugny</strong></br>
 			N°taxi :</br>
 			+32(0)471/51.56.65</br>
 			tva 0597-698-261</br></p>
