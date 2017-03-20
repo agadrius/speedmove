@@ -58,6 +58,7 @@
 				</div>
 			</section>
 	</div>
+	</div>
 		<!-- footer -->
 		<?php include 'include/footer.php';?><!-- footer includes -->		
 	
