@@ -25,7 +25,7 @@
 		<?php include 'include/menu.php';?><!-- menu includes -->
 
 		<!-- corps de la page -->
-		<section class="row" id="services_taxi">
+		<section class="row">
 			<div class="col-md-8">
 				<h1>Service de taxi</h1>
 				<p>Besoin d’un taxi rapidement? Appelez-nous. Nos services de taxi sont valables dans toute la Belgique.</p>
@@ -40,6 +40,10 @@
 				   <li>Lieu, date et heure de la prise en charge</li>
 				   <li>Votre Destination</li>
 				</ul>
+			</div>
+			<div class="col-md-4" id="service_taxi_img">
+				<img src="images/mulitvan3-md.jpg" alt="service_taxi_1">
+				<img src="images/service-taxi2-md.jpg" alt="service_taxi_2">
 			</div>
 		</section>
 			
