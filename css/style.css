@@ -1,6 +1,11 @@
 /* polices */
 
+
 /* mise en place générale */
+h1
+{
+	text-align: center;
+}
 header, footer 
 {
 	margin-top: 50px;
@@ -74,3 +79,4 @@ section h2
 {
 	margin-top: 30px;
 }
+/*service taxi */
