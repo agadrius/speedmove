@@ -25,7 +25,26 @@
 		<?php include 'include/menu.php';?><!-- menu includes -->
 
 		<!-- corps de la page -->
-			
+		<section class="row" id="vehicules">
+			<h1>Nos véhicules</h1>
+			<div class ="col-md-12" id="multivan">
+				<h2>Multivan</h2>
+				<div class="row">
+					<img src="images/service-taxi1-md.jpg" alt="multivan_1" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/mulitvan3-md.jpg" alt="multivan_2" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/multivan4-md.jpg" alt="multivan_3" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/multivan5-md.jpg" alt="multivan_4" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/multivan6-md.jpg" alt="multivan_5" class="col-xs-12 col-sm-6 col-md-4">
+				</div>
+			</div>
+			<div class ="col-md-12" id="remorque">
+				<h2>Remorque</h2>
+				<div class="row">
+					<img src="images/remorque1-md.jpg" alt="remorque_1" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/multivanetremorque.jpg" alt="remorque_2" class="col-xs-12 col-sm-6 col-md-4">
+				</div>
+			</div>
+		</section>
 	</div>
 		<!-- footer -->
 		<?php include 'include/footer.php';?><!-- footer includes -->		

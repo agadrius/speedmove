@@ -113,3 +113,15 @@ h1
 	font-style: italic; 
     font-weight: bold;
 }
+/* véhicules */
+#vehicules h2
+{
+	border-bottom: 1px solid #f87d09;
+	color: #f87d09;
+	padding-left: 10px;
+	font-size: 2em;
+}
+#vehicules img
+{
+	margin-top: 10px;
+}
