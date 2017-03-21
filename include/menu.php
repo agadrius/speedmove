@@ -15,7 +15,7 @@
 				<a data-toggle="dropdown" href="#">Services<b class="caret"></b></a>
 				<ul class="dropdown-menu">
 				  <li><a href="service-taxi.php">Taxi</a></li>
-				  <li><a href="#">Navette aeroport et gares</a></li>
+				  <li><a href="service-navette.php">Navette aeroport et gares</a></li>
 				  <li><a href="#">Livraison de colis</a></li>
 				</ul>
 			  </li>
