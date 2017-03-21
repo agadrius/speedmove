@@ -26,19 +26,16 @@
 
 		<!-- corps de la page -->
 		<section class="row">
-			<div class="col-md-8" id="txt_service_navette">
-				<h1>Service de <strong>navette</strong> <strong>aéroport</strong> ou <strong>gares</strong></h1>
-				<p>Pour tous vos besoins de navette vers un <strong>aéroport</strong> ou une <strong>gare</strong> en Belgique ou pays frontalier, <strong>Speed-Move</strong> vous accompagne de votre porte à la destination que vous avez choisie.</p>
-				<p>Ainsi pour faciliter vos déplacements, Speed-Move vous propose ses services tout en vous garantissant le confort du voyage (<em>Zaventem</em>, <em>Liège</em>, <em>Charleroi</em>, <em>Luxembourg</em>, <em>Paris</em>, …).</p>
-				<p>Idéal pour un trajet dans les meilleures conditions possibles: pas de stress, pas de frais de parking, de péage, sécurité de votre véhicule et surtout un tarif attractif.</p>
-				<span class="important"><p>Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</p></span>
+			<div class="col-md-8" id="txt_service_livraison">
+				<h1>Livraison de colis</h1>
+				<p>Besoin d’une livraison rapide ? Faites appel à nos services  personnalisés et rapides en toute sécurité dans toute la Belgique. Le poids maximum est de 500 kg .</p>
+				<h2>Types de services de livraison:</h2>
 				<ul>
-					<li>Vos nom et prénom</li>
-					<li>Nombre de passager, d’enfants</li>
-					<li>Lieu, date et heure de la prise en charge</li>
-					<li>Votre Destination</li>
-					<li>Nombre de valises</li>
+					<li>livraison rapide (livraison de 24h à 48h)</li>
+					<li>livraison rapide (livraison de 24h à 48h)</li>
 				</ul>
+				<p>Nos tarifs sont compétitifs et calculés au km sans aucun autre frais.</p>
+				<p>Avec Speed-move, gain de temps = gain d’argent</p>
 			</div>
 			<div class="col-md-4" id="img_service_navette">
 				<img src="images/service-navette1-md.jpg" alt="service_navette_1">
