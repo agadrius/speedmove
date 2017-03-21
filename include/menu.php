@@ -20,7 +20,7 @@
 				</ul>
 			  </li>
 			<li><a href="vehicules.php">Véhicules</a></li>
-			<li><a href="#contact">Devis</a></li>
+			<li><a href="devis.php">Devis</a></li>
 			<li><a href="#contact">Contact</a></li>
 		  </ul>
 		</div><!--/.nav-collapse -->
