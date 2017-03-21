@@ -27,18 +27,17 @@
 		<!-- corps de la page -->
 		<section class="row">
 			<div class="col-md-8" id="txt_service_navette">
-				<h1>Service de <strong>taxi</strong></h1>
-				<p>Besoin d’un <strong>taxi</strong> rapidement? Appelez-nous. Nos services de taxi sont valables dans toute la Belgique.</br>
-				<em>Sugny</em> | <em>Vresse-Sur-Semois</em> | <strong>Bouillon</strong> | <em>Gedinne</em> | <em>Bièvre</em>  | <em>Graide</em> | <em>Carlsbourg</em> | <em>Bertrix</em> | <em>Libramont</em> | …</br>
-				De jour comme de nuit notre service peut répondre à votre attente dans les plus brefs délais. N’hésitez pas à nous contacter. Profitez de notre véhicule haut de gamme. Celui-ci peut accueillir jusqu’à 6 personnes. Ce qui réduit le coût par personne.</p>
-				<h2><strong>Soirée ou restaurant</strong></h2>
-				<p>Une soirée un peu trop arrosée ? Une virée entre amis ? <strong>Speed-Move</strong> est là pour l’aller comme pour le retour.</br>
-				Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</p>
+				<h1>Service de <strong>navette</strong> <strong>aéroport</strong> ou <strong>gares</strong></h1>
+				<p>Pour tous vos besoins de navette vers un aéroport ou une gare en Belgique ou pays frontalier, Speed-Move vous accompagne de votre porte à la destination que vous avez choisie.</p>
+				<p>Ainsi pour faciliter vos déplacements, Speed-Move vous propose ses services tout en vous garantissant le confort du voyage (Zaventem, Liège, Charleroi, Luxembourg, Paris, …).</p>
+				<p>Idéal pour un trajet dans les meilleures conditions possibles: pas de stress, pas de frais de parking, de péage, sécurité de votre véhicule et surtout un tarif attractif.</p>
+				<p>Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</p>
 				<ul>
-				   <li>Vos nom et prénom</li>
-				   <li>Nombre de passager, d’enfants</li>
-				   <li>Lieu, date et heure de la prise en charge</li>
-				   <li>Votre Destination</li>
+					<li>Vos nom et prénom</li>
+					<li>Nombre de passager, d’enfants</li>
+					<li>Lieu, date et heure de la prise en charge</li>
+					<li>Votre Destination</li>
+					<li>Nombre de valises</li>
 				</ul>
 			</div>
 			<div class="col-md-4" id="img_service_navette">
