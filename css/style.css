@@ -55,6 +55,10 @@ footer p
 {
 	color: #8c8989;
 }
+#btn_fb
+{
+	margin-top: 10px;
+}
 /*index */
 
 #service_taxi, #service_navette, #service_livraison /* services */
