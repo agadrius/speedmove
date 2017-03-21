@@ -28,7 +28,7 @@
 		<section class="row">
 			<div class="col-md-8" id="txt_service_livraison">
 				<h1><Strong>Livraison</Strong> de <Strong>colis</Strong></h1>
-				<p>Besoin d’une <Strong>livraison</Strong> rapide ? Faites appel à nos services  personnalisés et rapides en toute sécurité dans toute la <Strong>Belgique</Strong>. Le poids maximum est de 500 kg .</p>
+				<p>Besoin d’une <Strong>livraison</Strong> rapide ? Faites appel à nos services  personnalisés et rapides en toute sécurité dans toute la <Strong>Belgique</Strong>. Le poids maximum est de <span class="gras">500 kg</span> .</p>
 				<h2>Types de services de livraison:</h2>
 				<ul>
 					<li>livraison rapide (livraison de 24h à 48h)</li>
