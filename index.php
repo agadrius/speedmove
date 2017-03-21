@@ -53,8 +53,10 @@
 			<section class="row" id="joint_us"><!-- nous rejoindre -->
 				<div class="col-md-12">
 					<h2>Nous Rejoindre</h2>
-					<p>Rejoigner notre page <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></p><!-- logo fb -->
-					
+					<div class="row">
+						<div class="col-md-12">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fspeedmovetaxi%2F%3Ffref%3Dts&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</di>
 				</div>
 			</section>
 	</div>
@@ -64,5 +66,6 @@
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script src="//connect.facebook.net/fr_FR/sdk.js#xfbml=1&amp;version=v2.5"></script>
   </body>
 </html>
