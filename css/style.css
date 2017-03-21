@@ -63,7 +63,7 @@ footer p
 	font-style: italic;
 	
 }
-section h2
+#services h2, #contact h2, #joint_us h2
 {
 	border-bottom: 1px solid #f87d09;
 	color: #f87d09;
