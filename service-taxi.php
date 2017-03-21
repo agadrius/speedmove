@@ -28,12 +28,12 @@
 		<section class="row">
 			<div class="col-md-8" id="txt_service_taxi">
 				<h1>Service de <strong>taxi</strong></h1>
-				<p>Besoin d’un <strong>taxi</strong> rapidement? Appelez-nous. Nos services de taxi sont valables dans toute la Belgique.</br>
-				<em>Sugny</em> | <em>Vresse-Sur-Semois</em> | <strong>Bouillon</strong> | <em>Gedinne</em> | <em>Bièvre</em>  | <em>Graide</em> | <em>Carlsbourg</em> | <em>Bertrix</em> | <em>Libramont</em> | …</br>
-				De jour comme de nuit notre service peut répondre à votre attente dans les plus brefs délais. N’hésitez pas à nous contacter. Profitez de notre véhicule haut de gamme. Celui-ci peut accueillir jusqu’à 6 personnes. Ce qui réduit le coût par personne.</p>
+				<p>Besoin d’un <strong>taxi</strong> rapidement? Appelez-nous. Nos services de taxi sont valables dans toute la Belgique.</p>
+				<p><em>Sugny</em> | <em>Vresse-Sur-Semois</em> | <strong>Bouillon</strong> | <em>Gedinne</em> | <em>Bièvre</em>  | <em>Graide</em> | <em>Carlsbourg</em> | <em>Bertrix</em> | <em>Libramont</em> | …</p>
+				<p>De jour comme de nuit notre service peut répondre à votre attente dans les plus brefs délais. N’hésitez pas à nous contacter. Profitez de notre véhicule haut de gamme. Celui-ci peut accueillir jusqu’à 6 personnes. Ce qui réduit le coût par personne.</p>
 				<h2><strong>Soirée ou restaurant</strong></h2>
-				<p>Une soirée un peu trop arrosée ? Une virée entre amis ? <strong>Speed-Move</strong> est là pour l’aller comme pour le retour.</br>
-				Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</p>
+				<p>Une soirée un peu trop arrosée ? Une virée entre amis ? <strong>Speed-Move</strong> est là pour l’aller comme pour le retour.</p>
+				<p><span class="important">Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</span></p>
 				<ul>
 				   <li>Vos nom et prénom</li>
 				   <li>Nombre de passager, d’enfants</li>
