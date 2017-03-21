@@ -28,8 +28,8 @@
 		<section class="row">
 			<div class="col-md-8" id="txt_service_navette">
 				<h1>Service de <strong>navette</strong> <strong>aéroport</strong> ou <strong>gares</strong></h1>
-				<p>Pour tous vos besoins de navette vers un aéroport ou une gare en Belgique ou pays frontalier, Speed-Move vous accompagne de votre porte à la destination que vous avez choisie.</p>
-				<p>Ainsi pour faciliter vos déplacements, Speed-Move vous propose ses services tout en vous garantissant le confort du voyage (Zaventem, Liège, Charleroi, Luxembourg, Paris, …).</p>
+				<p>Pour tous vos besoins de navette vers un <strong>aéroport</strong> ou une <strong>gare</strong> en Belgique ou pays frontalier, <strong>Speed-Move</strong> vous accompagne de votre porte à la destination que vous avez choisie.</p>
+				<p>Ainsi pour faciliter vos déplacements, Speed-Move vous propose ses services tout en vous garantissant le confort du voyage (<em>Zaventem</em>, <em>Liège</em>, <em>Charleroi</em>, <em>Luxembourg</em>, <em>Paris</em>, …).</p>
 				<p>Idéal pour un trajet dans les meilleures conditions possibles: pas de stress, pas de frais de parking, de péage, sécurité de votre véhicule et surtout un tarif attractif.</p>
 				<span class="important"><p>Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</p></span>
 				<ul>
@@ -41,8 +41,8 @@
 				</ul>
 			</div>
 			<div class="col-md-4" id="img_service_navette">
-				<img src="images/mulitvan3-md.jpg" alt="service_taxi_1">
-				<img src="images/service-taxi2-md.jpg" alt="service_taxi_2">
+				<img src="images/service-navette1-md.jpg" alt="service_navette_1">
+				<img src="images/navette2-md.jpg" alt="service_navette_2">
 			</div>
 		</section>
 			
