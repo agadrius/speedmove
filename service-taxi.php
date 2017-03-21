@@ -27,12 +27,12 @@
 		<!-- corps de la page -->
 		<section class="row">
 			<div class="col-md-8">
-				<h1>Service de taxi</h1>
-				<p>Besoin d’un taxi rapidement? Appelez-nous. Nos services de taxi sont valables dans toute la Belgique.</br>
-				Sugny | Vresse-Sur-Semois | Bouillon | Gedinne | Bièvre  | Graide | Carlsbourg | Bertrix | Libramont | …</br>
+				<h1>Service de <strong>taxi</strong></h1>
+				<p>Besoin d’un <strong>taxi</strong> rapidement? Appelez-nous. Nos services de taxi sont valables dans toute la Belgique.</br>
+				<em>Sugny</em> | <em>Vresse-Sur-Semois</em> | <strong>Bouillon</strong> | <em>Gedinne</em> | <em>Bièvre</em>  | <em>Graide</em> | <em>Carlsbourg</em> | <em>Bertrix</em> | <em>Libramont</em> | …</br>
 				De jour comme de nuit notre service peut répondre à votre attente dans les plus brefs délais. N’hésitez pas à nous contacter. Profitez de notre véhicule haut de gamme. Celui-ci peut accueillir jusqu’à 6 personnes. Ce qui réduit le coût par personne.</p>
-				<h2>Soirée ou restaurant</h2>
-				<p>Une soirée un peu trop arrosée ? Une virée entre amis ? Speed-Move est là pour l’aller comme pour le retour.</br>
+				<h2><strong>Soirée ou restaurant</strong></h2>
+				<p>Une soirée un peu trop arrosée ? Une virée entre amis ? <strong>Speed-Move</strong> est là pour l’aller comme pour le retour.</br>
 				Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</p>
 				<ul>
 				   <li>Vos nom et prénom</li>
