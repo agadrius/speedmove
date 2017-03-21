@@ -81,4 +81,9 @@ h1
 #img_service_taxi img
 {
 	margin-top: 10px;
+	text-align: center;
+}
+#img_service_taxi
+{
+	text-align: center;
 }
