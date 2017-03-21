@@ -25,8 +25,12 @@
 		<?php include 'include/menu.php';?><!-- menu includes -->
 
 		<!-- corps de la page -->
-		<section class="row">
-			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6">
+		<section class="row" id="map">
+			<div class="col-md-12">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.6211982254531!2d4.900266827342728!3d49.81455294086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea7395b85972e5%3A0x802eea50caca5bc1!2sSpeed+Move!5e0!3m2!1sfr!2sbe!4v1490133432197" width="1200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</section>
+			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6" id="contact">
 				<div class="form-group">
 					<label for="texte">votre nom(obligatoire) : </label>
 					<input id="text" type="text" class="form-control">
@@ -38,16 +42,6 @@
 				<div class="form-group">
 					<label for="texte">votre e-mail(obligatoire) : </label>
 					<input id="text" type="text" class="form-control">
-				</div>
-				<div class="form-group">
-					<label for="select">services (obligatoire) : </label>
-					<select id="select" class="form-control">
-						<option>Taxi</option>
-						<option>Livraison de colis</option>
-						<option>Navette aéroport</option>
-						<option>Navette gare</option>
-						<option>Autres</option>
-					</select>
 				</div>
 				<div class="form-group">
 				  <label for="textarea">Votre message : </label>
