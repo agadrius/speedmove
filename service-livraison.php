@@ -27,15 +27,15 @@
 		<!-- corps de la page -->
 		<section class="row">
 			<div class="col-md-8" id="txt_service_livraison">
-				<h1>Livraison de colis</h1>
-				<p>Besoin d’une livraison rapide ? Faites appel à nos services  personnalisés et rapides en toute sécurité dans toute la Belgique. Le poids maximum est de 500 kg .</p>
+				<h1><Strong>Livraison</Strong> de <Strong>colis</Strong></h1>
+				<p>Besoin d’une <Strong>livraison</Strong> rapide ? Faites appel à nos services  personnalisés et rapides en toute sécurité dans toute la <Strong>Belgique</Strong>. Le poids maximum est de 500 kg .</p>
 				<h2>Types de services de livraison:</h2>
 				<ul>
 					<li>livraison rapide (livraison de 24h à 48h)</li>
 					<li>livraison rapide (livraison de 24h à 48h)</li>
 				</ul>
 				<p>Nos tarifs sont compétitifs et calculés au km sans aucun autre frais.</p>
-				<p>Avec Speed-move, gain de temps = gain d’argent</p>
+				<p>Avec <Strong>Speed-move</Strong>, gain de temps = gain d’argent</p>
 			</div>
 			<div class="col-md-4" id="img_service_livraison">
 				<img src="images/service-colis-md.jpg" alt="service_livraison_1">
