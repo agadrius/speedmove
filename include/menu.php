@@ -19,7 +19,7 @@
 				  <li><a href="service-livraison.php">Livraison de colis</a></li>
 				</ul>
 			  </li>
-			<li><a href="#contact">Véhicules</a></li>
+			<li><a href="vehicules.php">Véhicules</a></li>
 			<li><a href="#contact">Devis</a></li>
 			<li><a href="#contact">Contact</a></li>
 		  </ul>
