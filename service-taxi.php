@@ -26,7 +26,7 @@
 
 		<!-- corps de la page -->
 		<section class="row">
-			<div class="col-md-8">
+			<div class="col-md-8" id="txt_service_taxi">
 				<h1>Service de <strong>taxi</strong></h1>
 				<p>Besoin d’un <strong>taxi</strong> rapidement? Appelez-nous. Nos services de taxi sont valables dans toute la Belgique.</br>
 				<em>Sugny</em> | <em>Vresse-Sur-Semois</em> | <strong>Bouillon</strong> | <em>Gedinne</em> | <em>Bièvre</em>  | <em>Graide</em> | <em>Carlsbourg</em> | <em>Bertrix</em> | <em>Libramont</em> | …</br>
@@ -41,7 +41,7 @@
 				   <li>Votre Destination</li>
 				</ul>
 			</div>
-			<div class="col-md-4" id="service_taxi_img">
+			<div class="col-md-4" id="img_service_taxi">
 				<img src="images/mulitvan3-md.jpg" alt="service_taxi_1">
 				<img src="images/service-taxi2-md.jpg" alt="service_taxi_2">
 			</div>
