@@ -25,7 +25,38 @@
 		<?php include 'include/menu.php';?><!-- menu includes -->
 
 		<!-- corps de la page -->
-			
+		<section class="row">
+			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6">
+				<div class="form-group">
+					<label for="texte">votre nom(obligatoire) : </label>
+					<input id="text" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="texte">votre téléphone(obligatoire) : </label>
+					<input id="text" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="texte">votre e-mail(obligatoire) : </label>
+					<input id="text" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="select">services (obligatoire) : </label>
+					<select id="select" class="form-control">
+						<option>Taxi</option>
+						<option>Livraison de colis</option>
+						<option>Navette aéroport</option>
+						<option>Navette gare</option>
+						<option>Autres</option>
+					</select>
+				</div>
+				<div class="form-group">
+				  <label for="textarea">Votre message : </label>
+				  <textarea id="textarea" type="textarea" class="form-control"></textarea>
+				</div>
+				<button type="button" class="btn btn-primary">Envoyer</button>
+				<button type="button" class="btn btn-danger">Annuler</button>
+			</form>
+		</section>
 	</div>
 		<!-- footer -->
 		<?php include 'include/footer.php';?><!-- footer includes -->		
