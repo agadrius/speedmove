@@ -31,7 +31,7 @@
 				<p>Pour tous vos besoins de navette vers un aéroport ou une gare en Belgique ou pays frontalier, Speed-Move vous accompagne de votre porte à la destination que vous avez choisie.</p>
 				<p>Ainsi pour faciliter vos déplacements, Speed-Move vous propose ses services tout en vous garantissant le confort du voyage (Zaventem, Liège, Charleroi, Luxembourg, Paris, …).</p>
 				<p>Idéal pour un trajet dans les meilleures conditions possibles: pas de stress, pas de frais de parking, de péage, sécurité de votre véhicule et surtout un tarif attractif.</p>
-				<p>Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</p>
+				<span class="important"><p>Pour un maximum d’efficacité, veuillez préparer les informations suivantes:</p></span>
 				<ul>
 					<li>Vos nom et prénom</li>
 					<li>Nombre de passager, d’enfants</li>

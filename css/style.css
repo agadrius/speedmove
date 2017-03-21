@@ -74,18 +74,24 @@ footer p
 {
 	margin-top: 30px;
 }
-/*service taxi */
+/*services */
+.important
+{
+	font-style: italic; 
+    font-weight: bold;
+	font-size: 1.2em;
+}
 h1 
 {
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.5em;
 }
-#img_service_taxi img
+#img_service_taxi img, #img_service_navette img
 {
 	margin-top: 10px;
 	text-align: center;
 }
-#img_service_taxi
+#img_service_taxi, #img_service_navette
 {
 	text-align: center;
 }
