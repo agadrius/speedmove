@@ -37,9 +37,8 @@
 				<p>Nos tarifs sont compétitifs et calculés au km sans aucun autre frais.</p>
 				<p>Avec Speed-move, gain de temps = gain d’argent</p>
 			</div>
-			<div class="col-md-4" id="img_service_navette">
-				<img src="images/service-navette1-md.jpg" alt="service_navette_1">
-				<img src="images/navette2-md.jpg" alt="service_navette_2">
+			<div class="col-md-4" id="img_service_livraison">
+				<img src="images/service-colis-md.jpg" alt="service_livraison_1">
 			</div>
 		</section>
 			
