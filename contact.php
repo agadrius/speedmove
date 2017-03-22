@@ -30,7 +30,7 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.6211982254531!2d4.900266827342728!3d49.81455294086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea7395b85972e5%3A0x802eea50caca5bc1!2sSpeed+Move!5e0!3m2!1sfr!2sbe!4v1490133432197" width="1200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</section>
-			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6" id="contact">
+			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6" id="contact" action="send_email_contact.php" method="post">
 				<div class="form-group">
 					<label for="texte">votre nom(obligatoire) : </label>
 					<input id="text" type="text" class="form-control">
@@ -47,8 +47,8 @@
 				  <label for="textarea">Votre message : </label>
 				  <textarea id="textarea" type="textarea" class="form-control"></textarea>
 				</div>
-				<button type="button" class="btn btn-primary">Envoyer</button>
 				<button type="button" class="btn btn-danger">Annuler</button>
+				<input type="submit" class="btn btn-primary" value="Envoyer">
 			</form>
 		</section>
 	</div>
