@@ -33,19 +33,19 @@
 			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6" id="contact" action="send_email_contact.php" method="post">
 				<div class="form-group">
 					<label for="texte">votre nom(obligatoire) : </label>
-					<input id="text" type="text" class="form-control">
+					<input name="nom" type="text" class="form-control">
 				</div>
 				<div class="form-group">
 					<label for="texte">votre téléphone(obligatoire) : </label>
-					<input id="text" type="text" class="form-control">
+					<input name="telephone" type="text" class="form-control">
 				</div>
 				<div class="form-group">
 					<label for="texte">votre e-mail(obligatoire) : </label>
-					<input id="text" type="text" class="form-control">
+					<input name="email" type="text" class="form-control">
 				</div>
 				<div class="form-group">
 				  <label for="textarea">Votre message : </label>
-				  <textarea id="textarea" type="textarea" class="form-control"></textarea>
+				  <textarea name="message" type="textarea" class="form-control"></textarea>
 				</div>
 				<button type="button" class="btn btn-danger">Annuler</button>
 				<input type="submit" class="btn btn-primary" value="Envoyer">
