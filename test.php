@@ -49,5 +49,13 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
  
 //=====Envoi de l'e-mail.
 mail($mail,$sujet,$message,$header);
+if ( mail($to, $suject, $message_email, $headers) == TRUE )
+{
+   echo "Envoi du mail reussi.";
+}
+else
+{
+   echo "Erreur : l'envoi du mail a échoué.";
+}
 //==========
 ?>
