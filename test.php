@@ -10,10 +10,10 @@ else
 }
 
 //=====données du formulaire
-$message_form = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut augue eros, iaculis nec rhoncus vitae, ornare ut ipsum. Nam ac felis sit amet dui suscipit auctor. Suspendisse semper leo ut nunc efficitur, cursus porttitor nisl semper. Aliquam risus odio, imperdiet et lectus id, sollicitudin faucibus lectus. Sed at leo sem.";
-$name_form = "toto";
-$tel_form = "05645645646";
-$mail_form = "test@test.com";
+$name_form = $_POST['nom'];
+$tel_form = $_POST['telephone'];
+$mail_form = $_POST['email'];
+$message_form = $_POST['message'];
 //==========
 
 //=====Déclaration des messages au format texte et au format HTML.
