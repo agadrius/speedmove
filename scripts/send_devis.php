@@ -49,7 +49,14 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 //==========
  
 //=====Envoi de l'e-mail.
-echo $mail,$sujet,$message,$header;
+if ( mail($mail,$sujet,$message,$header) == TRUE )
+{
+   header('Location: ../send_devis_ok.php');   // redirection contact ok
+}
+else
+{
+   header('Location: ../send_devis_fail.php'); // redirection contact fail
+}
 
 //==========
 ?>
