@@ -27,7 +27,7 @@ $boundary = "-----=".md5(rand());
 //==========
  
 //=====Définition du sujet.
-$sujet = "Demande de contact";
+$sujet = "Demande de devis";
 //=========
  
 //=====Création du header de l'e-mail.
