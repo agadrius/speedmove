@@ -13,12 +13,13 @@ else
 $name_form = $_POST['nom'];
 $tel_form = $_POST['telephone'];
 $mail_form = $_POST['email'];
+$service_form = $_POST['service'];
 $message_form = $_POST['message'];
 //==========
 
 //=====Déclaration des messages au format texte et au format HTML.
 
-$message_html = "<html><head></head><body><b>informations client :</b><br><br>nom : " .$name_form. "<br>tel : " .$tel_form. "<br> email : " .$mail_form. "<br><br><b>message :</b><br><br> " .$message_form. "<br><br><br><br> voici un e-mail envoyé via <i>speed-move.be</i>.</body></html>";
+$message_html = "<html><head></head><body><b>informations client :</b><br><br>nom : " .$name_form. "<br>tel : " .$tel_form. "<br> email : " .$mail_form. "<br>service : " .$service_form. "<br><br><b>message :</b><br><br> " .$message_form. "<br><br><br><br> voici un e-mail envoyé via <i>speed-move.be</i>.</body></html>";
 //==========
  
 //=====Création de la boundary
@@ -48,13 +49,7 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 //==========
  
 //=====Envoi de l'e-mail.
-if ( mail($mail,$sujet,$message,$header) == TRUE )
-{
-   header('Location: ../send_contact_ok.php');   // redirection contact ok
-}
-else
-{
-   header('Location: ../send_contact_fail.php'); // redirection contact fail
-}
+echo $mail,$sujet,$message,$header;
+
 //==========
 ?>
