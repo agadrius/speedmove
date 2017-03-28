@@ -50,7 +50,7 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 //=====Envoi de l'e-mail.
 if ( mail($mail,$sujet,$message,$header) == TRUE )
 {
-   echo "Envoi du mail reussi.";
+   header('Location: send_contact_ok.php');   // redirection contact ok
 }
 else
 {
