@@ -26,22 +26,22 @@
 
 		<!-- corps de la page -->
 		<section class="row">
-			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6">
+			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6" id="devis" action="scripts/send_devis.php" method="post">
 				<div class="form-group">
 					<label for="texte">votre nom(obligatoire) : </label>
-					<input id="text" type="text" class="form-control">
+					<input name="nom" type="text" class="form-control">
 				</div>
 				<div class="form-group">
 					<label for="texte">votre téléphone(obligatoire) : </label>
-					<input id="text" type="text" class="form-control">
+					<input name="telephone" type="text" class="form-control">
 				</div>
 				<div class="form-group">
 					<label for="texte">votre e-mail(obligatoire) : </label>
-					<input id="text" type="text" class="form-control">
+					<input name="email" type="text" class="form-control">
 				</div>
 				<div class="form-group">
 					<label for="select">services (obligatoire) : </label>
-					<select id="select" class="form-control">
+					<select name="service"  class="form-control">
 						<option>Taxi</option>
 						<option>Livraison de colis</option>
 						<option>Navette aéroport</option>
@@ -51,10 +51,10 @@
 				</div>
 				<div class="form-group">
 				  <label for="textarea">Votre message : </label>
-				  <textarea id="textarea" type="textarea" class="form-control"></textarea>
+				  <textarea name="message" type="textarea" class="form-control"></textarea>
 				</div>
-				<button type="button" class="btn btn-primary">Envoyer</button>
 				<button type="button" class="btn btn-danger">Annuler</button>
+				<input type="submit" class="btn btn-primary" value="Envoyer">
 			</form>
 		</section>
 	</div>
