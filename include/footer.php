@@ -1,4 +1,4 @@
-<footer class="row" id="footer">
+<footer class="row navbar-fixed-bottom" id="footer">
 	<div class="container">
 		<div class="col-md-3">
 			<h3>Coordonnées</h3>

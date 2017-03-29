@@ -1,6 +1,10 @@
 /* polices */
 
 /* général */
+body 
+{
+	padding-bottom :400px;
+}
 header, footer 
 {
 	margin-top: 50px;
