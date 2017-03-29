@@ -44,9 +44,7 @@
 			
 	</div>
 		<!-- footer -->
-		<div class ="footer-xl">
 		<?php include 'include/footer.php';?><!-- footer includes -->	
-		</div>
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
