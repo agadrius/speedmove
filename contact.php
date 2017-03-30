@@ -31,21 +31,30 @@
 			</div>
 		</section>
 			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact" action="scripts/send_contact.php" method="post">
-				<div class="form-group">
-					<label for="texte">votre nom(obligatoire) : </label>
+				<div class="form-group has-error has-feedback">
+					<label for="texte">votre nom et prénom(obligatoire) : </label>
 					<input name="nom" type="text" class="form-control">
+					<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+					<span class="help-block " >nom et prenom obligatoire</span>	
 				</div>
-				<div class="form-group">
+				<div class="form-group has-error has-feedback">
 					<label for="texte">votre téléphone(obligatoire) : </label>
 					<input name="telephone" type="text" class="form-control">
+					<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+					<span class="help-block">numero de telephone obligatoire</span>	
 				</div>
-				<div class="form-group">
+				<div class="form-group has-error has-feedback">
 					<label for="texte">votre e-mail(obligatoire) : </label>
 					<input name="email" type="text" class="form-control">
+					<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+					<span class="help-block">adresse mail non valide ex: test@test.com</span>	
 				</div>
-				<div class="form-group">
+				<div class="form-group has-error has-feedback">
 				  <label for="textarea">Votre message : </label>
 				  <textarea name="message" type="textarea" class="form-control"></textarea>
+				  <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+				  <span class="help-block">votre message est obligatoire</span>
+				  
 				</div>
 				<button type="button" class="btn btn-danger">Annuler</button>
 				<input type="submit" class="btn btn-primary" value="Envoyer">
