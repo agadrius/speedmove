@@ -78,8 +78,11 @@
     });
   });
   $(function(){
-    $("form").on("reset", function() {
-      alert("reset formulaire");
+    $("form").on("reset", function() { 
+      $("#name").reset(); // reset champ name
+	  $("#tel").reset(); // reset champ tel
+	  $("#mail").reset(); // reset champ mail
+	  $("#message").reset(); // reset champ message
     });
   });
 // </script>
