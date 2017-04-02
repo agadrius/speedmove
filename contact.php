@@ -30,12 +30,12 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d765.400568894465!2d4.90047008403309!3d49.81444794641851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x802eea50caca5bc1!2sSpeed+Move!5e0!3m2!1sfr!2sbe!4v1490774102097" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</section>
-			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact" action="scripts/send_contact.php" method="post">
-				<div class="form-group has-feedback">
+			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact"  action="scripts/send_contact.php" method="post">
+				<div class="form-group has-feedback" id="div_name">
 					<label for="texte">votre nom et prénom(obligatoire) : </label>
 					<input name="nom" type="text" class="form-control" id="name">
-					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
-					<span class="help-block " style="display:none">nom et prenom obligatoire</span>	
+					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="img_name"></span>
+					<span class="help-block " style="display:none" id="error_name">nom et prenom obligatoire</span>	
 				</div>
 				<div class="form-group has-feedback">
 					<label for="texte">votre téléphone(obligatoire) : </label>
@@ -56,8 +56,8 @@
 				  <span class="help-block" style="display:none">votre message est obligatoire</span>
 				  
 				</div>
-				<button type="button" class="btn btn-danger">Annuler</button>
-				<input type="submit" class="btn btn-primary" value="Envoyer">
+				<button type="reset" class="btn btn-danger">Annuler</button>
+				<input type="submit" class="btn btn-primary" value="Envoyer" id="envoi">
 			</form>
 		</section>
 	</div>
@@ -67,14 +67,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script>
-	$(document).ready(function(){
-    
-		var $name = $('#name'),
-			$tel = $('#tel'),
-			$mail = $('#mail'),
-			$message = $('message');
-	});
-
+	$(function(){
+    $("form").on("submit", function() {
+      if($("input").val()=="") {
+        $("div.form-group").addClass("has-error");
+		$("span.glyphicon").show();
+		$("span.help-block").show();
+        return false;
+      }
+    });
+  });
+  $(function(){
+    $("form").on("reset", function() {
+      alert("reset formulaire");
+    });
+  });
 // </script>
   </body>
 </html>
