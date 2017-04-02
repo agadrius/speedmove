@@ -33,25 +33,25 @@
 			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact" action="scripts/send_contact.php" method="post">
 				<div class="form-group has-feedback">
 					<label for="texte">votre nom et prénom(obligatoire) : </label>
-					<input name="nom" type="text" class="form-control">
+					<input name="nom" type="text" class="form-control" id="name">
 					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
 					<span class="help-block " style="display:none">nom et prenom obligatoire</span>	
 				</div>
 				<div class="form-group has-feedback">
 					<label for="texte">votre téléphone(obligatoire) : </label>
-					<input name="telephone" type="text" class="form-control">
+					<input name="telephone" type="text" class="form-control" id="tel">
 					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
 					<span class="help-block" style="display:none">numero de telephone obligatoire</span>	
 				</div>
 				<div class="form-group has-feedback">
 					<label for="texte">votre e-mail(obligatoire) : </label>
-					<input name="email" type="text" class="form-control">
+					<input name="email" type="text" class="form-control" id="mail">
 					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
 					<span class="help-block" style="display:none">adresse mail non valide ex: test@test.com</span>	
 				</div>
 				<div class="form-group has-feedback">
 				  <label for="textarea">Votre message : </label>
-				  <textarea name="message" type="textarea" class="form-control"></textarea>
+				  <textarea name="message" type="textarea" class="form-control" id="message"></textarea>
 				  <span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
 				  <span class="help-block" style="display:none">votre message est obligatoire</span>
 				  
@@ -66,17 +66,6 @@
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script>
-  $(function(){
-    $("form").on("submit", function() {
-      if($("input").val().length < 4) {
-        $("div.form-group").addClass("has-error");
-		$("span.glyphicon").show("slow").delay(4000).hide("slow");
-        $("span.help-block").show("slow").delay(4000).hide("slow");
-        return false;
-      }
-    });
-  });
-// </script>
+	
   </body>
 </html>
