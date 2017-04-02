@@ -37,23 +37,23 @@
 					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
 					<span class="help-block " style="display:none">nom et prenom obligatoire</span>	
 				</div>
-				<div class="form-group has-error has-feedback">
+				<div class="form-group has-feedback">
 					<label for="texte">votre téléphone(obligatoire) : </label>
 					<input name="telephone" type="text" class="form-control">
-					<span class="glyphicon glyphicon-remove form-control-feedback"></span>
-					<span class="help-block">numero de telephone obligatoire</span>	
+					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
+					<span class="help-block" style="display:none">numero de telephone obligatoire</span>	
 				</div>
-				<div class="form-group has-error has-feedback">
+				<div class="form-group has-feedback">
 					<label for="texte">votre e-mail(obligatoire) : </label>
 					<input name="email" type="text" class="form-control">
-					<span class="glyphicon glyphicon-remove form-control-feedback"></span>
-					<span class="help-block">adresse mail non valide ex: test@test.com</span>	
+					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
+					<span class="help-block" style="display:none">adresse mail non valide ex: test@test.com</span>	
 				</div>
-				<div class="form-group has-error has-feedback">
+				<div class="form-group has-feedback">
 				  <label for="textarea">Votre message : </label>
 				  <textarea name="message" type="textarea" class="form-control"></textarea>
-				  <span class="glyphicon glyphicon-remove form-control-feedback"></span>
-				  <span class="help-block">votre message est obligatoire</span>
+				  <span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
+				  <span class="help-block" style="display:none">votre message est obligatoire</span>
 				  
 				</div>
 				<button type="button" class="btn btn-danger">Annuler</button>
@@ -71,7 +71,8 @@
     $("form").on("submit", function() {
       if($("input").val().length < 4) {
         $("div.form-group").addClass("has-error");
-        $("div.alert").show("slow").delay(4000).hide("slow");
+		$("span.glyphicon").show("slow").delay(4000).hide("slow");
+        $("span.help-block").show("slow").delay(4000).hide("slow");
         return false;
       }
     });
