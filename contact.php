@@ -40,7 +40,7 @@
 				<div class="form-group has-feedback" id="tel">
 					<label for="texte">votre téléphone(obligatoire) : </label>
 					<input name="telephone" type="text" class="form-control" id="imput_tel">
-					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="logo_tel"></span>
+					<span class="glyphicon form-control-feedback" style="display:none" id="logo_tel"></span>
 					<span class="help-block" style="display:none" id="error_tel">numero de telephone obligatoire</span>	
 				</div>
 				<div class="form-group has-feedback" id="mail">
@@ -75,6 +75,7 @@
 		$('#envoi').click(function(){
 			
 			var tel = verifier($tel, $tel_div, $tel_logo, $tel_error);
+			return false; // bloque envoi
 			if(tel ==false){
 				return false;
 			}
@@ -87,9 +88,16 @@
 			alert(imput.val());
 			if(imput.val() == ""){
 				div.addClass("has-error");
+				logo.addClass("glyphicon-remove");
 				logo.show();
 				error.show();
 				return false;
+			}
+			else{
+				div.addClass("has-success");
+				logo.addClass("glyphicon-ok");
+				logo.show();
+				return true;
 			}
 		}
 	});
