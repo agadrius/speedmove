@@ -31,27 +31,27 @@
 			</div>
 		</section>
 			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact"  action="scripts/send_contact.php" method="post">
-				<div class="form-group has-feedback" id="div_name">
+				<div class="form-group has-feedback" id="name">
 					<label for="texte">votre nom et prénom(obligatoire) : </label>
-					<input name="nom" type="text" class="form-control" id="name">
+					<input name="nom" type="text" class="form-control">
 					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="img_name"></span>
 					<span class="help-block " style="display:none" id="error_name">nom et prenom obligatoire</span>	
 				</div>
-				<div class="form-group has-feedback">
+				<div class="form-group has-feedback" id="tel">
 					<label for="texte">votre téléphone(obligatoire) : </label>
-					<input name="telephone" type="text" class="form-control" id="tel">
-					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
-					<span class="help-block" style="display:none">numero de telephone obligatoire</span>	
+					<input name="telephone" type="text" class="form-control" id="imput_tel">
+					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="logo_tel"></span>
+					<span class="help-block" style="display:none" id="error_tel">numero de telephone obligatoire</span>	
 				</div>
-				<div class="form-group has-feedback">
+				<div class="form-group has-feedback" id="mail">
 					<label for="texte">votre e-mail(obligatoire) : </label>
-					<input name="email" type="text" class="form-control" id="mail">
+					<input name="email" type="text" class="form-control">
 					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
 					<span class="help-block" style="display:none">adresse mail non valide ex: test@test.com</span>	
 				</div>
-				<div class="form-group has-feedback">
+				<div class="form-group has-feedback"  id="message">
 				  <label for="textarea">Votre message : </label>
-				  <textarea name="message" type="textarea" class="form-control" id="message"></textarea>
+				  <textarea name="message" type="textarea" class="form-control"></textarea>
 				  <span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
 				  <span class="help-block" style="display:none">votre message est obligatoire</span>
 				  
@@ -67,24 +67,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script>
-	$(function(){
-    $("form").on("submit", function() {
-      if($("input").val()=="") {
-        $("div.form-group").addClass("has-error");
-		$("span.glyphicon").show();
-		$("span.help-block").show();
-        return false;
-      }
-    });
-  });
-  $(function(){
-    $("form").on("reset", function() { 
-      $("#name").reset(); // reset champ name
-	  $("#tel").reset(); // reset champ tel
-	  $("#mail").reset(); // reset champ mail
-	  $("#message").reset(); // reset champ message
-    });
-  });
-// </script>
+	$(document).ready(function(){
+		var $tel = $("#imput_tel"),
+			$tel_div = $("#tel"),
+			$tel_logo = $("#logo_tel"),
+			$tel_error = $("#error_tel");
+		$('#envoi').click(function(){
+			
+			var tel = verifier($tel, $tel_div, $tel_logo, $tel_error);
+			if(tel ==false){
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+		});
+		function verifier(imput, div, logo, error){
+			alert(imput.val());
+			if(imput.val() == ""){
+				div.addClass("has-error");
+				logo.show();
+				error.show();
+				return false;
+			}
+		}
+	});
+
+  </script>
   </body>
 </html>
