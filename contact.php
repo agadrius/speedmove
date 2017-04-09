@@ -68,25 +68,28 @@
     <script src="js/bootstrap.min.js"></script>
 	<script>
 	$(document).ready(function(){
-		var $name,
-			$name_div,
-			$name_logo,
-			$name_error,
+		var $name = $("#imput_name"),
+			$name_div = $("#name"),
+			$name_logo = $("#logo_name"),
+			$name_error = $("#error_name"),
 			$tel = $("#imput_tel"),
 			$tel_div = $("#tel"),
 			$tel_logo = $("#logo_tel"),
 			$tel_error = $("#error_tel"),
-			$mail,
-			$mail_div,
-			$mail_logo,
-			$mail_error,
-			$message,
-			$message_div,
-			$message_logo,
-			$message_error;
+			$mail = $("#imput_mail"),
+			$mail_div = $("#mail"),
+			$mail_logo = $("#logo_mail"),
+			$mail_error = $("#error_mail"),
+			$message = $("#imput_message"),
+			$message_div = $("#message"),
+			$message_logo = $("#logo_message"),
+			$message_error = $("#error_message");
 		$('#envoi').click(function(){
 			
+			var name = verifier($name, $name_div, $name_logo, $name_error);
 			var tel = verifier($tel, $tel_div, $tel_logo, $tel_error);
+			var mail = verifier($mail, $mail_div, $mail_logo, $mail_error);
+			var message = verifier($message, $message_div, $message_logo, $message_error);
 			return false; // bloque envoi
 			if(tel ==false){
 				return false;
