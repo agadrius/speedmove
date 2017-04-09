@@ -33,9 +33,9 @@
 			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact"  action="scripts/send_contact.php" method="post">
 				<div class="form-group has-feedback" id="name">
 					<label for="texte">votre nom et prénom(obligatoire) : </label>
-					<input name="nom" type="text" class="form-control">
-					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="img_name"></span>
-					<span class="help-block " style="display:none" id="error_name">nom et prenom obligatoire</span>	
+					<input name="nom" type="text" class="form-control" id="imput_name">
+					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="logo_name"></span>
+					<span class="help-block " style="display:none" id="error_name" id="error_name">nom et prenom obligatoire</span>	
 				</div>
 				<div class="form-group has-feedback" id="tel">
 					<label for="texte">votre téléphone(obligatoire) : </label>
@@ -45,15 +45,15 @@
 				</div>
 				<div class="form-group has-feedback" id="mail">
 					<label for="texte">votre e-mail(obligatoire) : </label>
-					<input name="email" type="text" class="form-control">
-					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
-					<span class="help-block" style="display:none">adresse mail non valide ex: test@test.com</span>	
+					<input name="email" type="text" class="form-control" id="imput_mail">
+					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="logo_mail"></span>
+					<span class="help-block" style="display:none" id="error_mail">adresse mail non valide ex: test@test.com</span>	
 				</div>
 				<div class="form-group has-feedback"  id="message">
 				  <label for="textarea">Votre message : </label>
-				  <textarea name="message" type="textarea" class="form-control"></textarea>
-				  <span class="glyphicon glyphicon-remove form-control-feedback" style="display:none"></span>
-				  <span class="help-block" style="display:none">votre message est obligatoire</span>
+				  <textarea name="message" type="textarea" class="form-control" id="imput_message"></textarea>
+				  <span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="logo_message"></span>
+				  <span class="help-block" style="display:none" id="error_message">votre message est obligatoire</span>
 				  
 				</div>
 				<button type="reset" class="btn btn-danger">Annuler</button>
@@ -68,10 +68,22 @@
     <script src="js/bootstrap.min.js"></script>
 	<script>
 	$(document).ready(function(){
-		var $tel = $("#imput_tel"),
+		var $name,
+			$name_div,
+			$name_logo,
+			$name_error,
+			$tel = $("#imput_tel"),
 			$tel_div = $("#tel"),
 			$tel_logo = $("#logo_tel"),
-			$tel_error = $("#error_tel");
+			$tel_error = $("#error_tel"),
+			$mail,
+			$mail_div,
+			$mail_logo,
+			$mail_error,
+			$message,
+			$message_div,
+			$message_logo,
+			$message_error;
 		$('#envoi').click(function(){
 			
 			var tel = verifier($tel, $tel_div, $tel_logo, $tel_error);
@@ -85,7 +97,6 @@
 			}
 		});
 		function verifier(imput, div, logo, error){
-			alert(imput.val());
 			if(imput.val() == ""){
 				div.addClass("has-error");
 				logo.addClass("glyphicon-remove");
