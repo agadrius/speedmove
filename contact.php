@@ -34,7 +34,7 @@
 				<div class="form-group has-feedback" id="name">
 					<label for="texte">votre nom et prénom(obligatoire) : </label>
 					<input name="nom" type="text" class="form-control" id="imput_name">
-					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="logo_name"></span>
+					<span class="glyphicon form-control-feedback" style="display:none" id="logo_name"></span>
 					<span class="help-block " style="display:none" id="error_name" id="error_name">nom et prenom obligatoire</span>	
 				</div>
 				<div class="form-group has-feedback" id="tel">
@@ -46,13 +46,13 @@
 				<div class="form-group has-feedback" id="mail">
 					<label for="texte">votre e-mail(obligatoire) : </label>
 					<input name="email" type="text" class="form-control" id="imput_mail">
-					<span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="logo_mail"></span>
+					<span class="glyphicon form-control-feedback" style="display:none" id="logo_mail"></span>
 					<span class="help-block" style="display:none" id="error_mail">adresse mail non valide ex: test@test.com</span>	
 				</div>
 				<div class="form-group has-feedback"  id="message">
 				  <label for="textarea">Votre message : </label>
 				  <textarea name="message" type="textarea" class="form-control" id="imput_message"></textarea>
-				  <span class="glyphicon glyphicon-remove form-control-feedback" style="display:none" id="logo_message"></span>
+				  <span class="glyphicon form-control-feedback" style="display:none" id="logo_message"></span>
 				  <span class="help-block" style="display:none" id="error_message">votre message est obligatoire</span>
 				  
 				</div>
@@ -68,7 +68,9 @@
     <script src="js/bootstrap.min.js"></script>
 	<script>
 	$(document).ready(function(){
-		var $name = $("#imput_name"),
+		
+		$('#envoi').click(function(){
+			var $name = $("#imput_name"),
 			$name_div = $("#name"),
 			$name_logo = $("#logo_name"),
 			$name_error = $("#error_name"),
@@ -84,14 +86,13 @@
 			$message_div = $("#message"),
 			$message_logo = $("#logo_message"),
 			$message_error = $("#error_message");
-		$('#envoi').click(function(){
 			
-			var name = verifier($name, $name_div, $name_logo, $name_error);
+			var name = verifier($("#imput_name"), $("#name"), $("#logo_name"), $("#error_name"));
 			var tel = verifier($tel, $tel_div, $tel_logo, $tel_error);
 			var mail = verifier($mail, $mail_div, $mail_logo, $mail_error);
 			var message = verifier($message, $message_div, $message_logo, $message_error);
-			return false; // bloque envoi
-			if(tel ==false){
+			
+			if(name==false || tel==false || mail==false || message==false){
 				return false;
 			}
 			else
@@ -100,6 +101,8 @@
 			}
 		});
 		function verifier(imput, div, logo, error){
+			div.removeClass().addClass("form-group has-feedback"); // reset de la class div 
+			logo.removeClass().addClass("glyphicon form-control-feedback"); // reset de la class logo
 			if(imput.val() == ""){
 				div.addClass("has-error");
 				logo.addClass("glyphicon-remove");
@@ -111,6 +114,7 @@
 				div.addClass("has-success");
 				logo.addClass("glyphicon-ok");
 				logo.show();
+				error.hide();
 				return true;
 			}
 		}
