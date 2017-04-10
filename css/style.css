@@ -19,6 +19,10 @@ p
 }
 /* header */
 /* menu */
+.dropdown-menu > li > a
+{
+	font-size: 1.5em;
+}
 .navbar
 {
 	font-size: 2em;
