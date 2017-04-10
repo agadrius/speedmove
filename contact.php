@@ -107,7 +107,7 @@
 			}
 		}
 
-				function testMail(champ){ 
+		function testMail(champ){ 
 			$("#mail").removeClass().addClass("form-group has-feedback"); // reset de la class div 
 			$("#logo_mail").removeClass().addClass("glyphicon form-control-feedback"); // reset de la class logo
 			var regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
