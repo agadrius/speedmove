@@ -18,7 +18,27 @@ $message_form = $_POST['message'];
 
 //=====Déclaration des messages au format texte et au format HTML.
 
-$message_html = "<html><head></head><body><b>informations client :</b><br><br>nom : " .$name_form. "<br>tel : " .$tel_form. "<br> email : " .$mail_form. "<br><br><b>message :</b><br><br> " .$message_form. "<br><br><br><br> voici un e-mail envoyé via <i>speed-move.be</i>.</body></html>";
+$message_html = "<html>
+					<head>
+					</head>
+					<body>
+						<b>informations client :</b><br>
+						<b>---------------------------------------------------------------</b><br>
+						<br>
+						de : " .$name_form." ".$mail_form. "<br>
+						date :<br>
+						tel : " .$tel_form. "<br>
+						email : " .$mail_form. "<br>
+						<br>
+						<b>message :</b><br>
+						<b>---------------------------------------------------------------</b><br>
+						<br> " .$message_form. "<br>
+						<br>
+						<br>
+						<br> 
+						voici un e-mail envoyé via <i>speed-move.be</i>.
+					</body>
+				</html>";
 //==========
  
 //=====Création de la boundary
