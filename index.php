@@ -29,17 +29,17 @@
 			<section class="row" id="services"><!-- services -->
 				<h2>Nos services</h2>
 				<div class="col-sm-6 col-md-4" id="service_taxi">
-					<a href="#"><img src="images/taxi-mini.jpg" alt="service taxi">
+					<a href="service-taxi.php"><img src="images/taxi-mini.jpg" alt="service taxi">
 					<h3>Service de taxi</h3>
 					<p>Plus d'informations</p></a>
 				</div>
 				<div class="col-sm-6 col-md-4" id="service_navette">
-					<a href="#"><img src="images/taxi-mini.jpg" alt="service navette">
+					<a href="service-navette.php"><img src="images/taxi-mini.jpg" alt="service navette">
 					<h3>Navette Aéroport et Gares</h3>
 					<p>Plus d'informations</p></a>
 				</div>
 				<div class="col-sm-6 col-md-4" id="service_livraison">
-					<a href="#"><img src="images/colis-min.jpg" alt="service livraison">
+					<a href="service-livraison.php"><img src="images/colis-min.jpg" alt="service livraison">
 					<h3>Livrasion de colis</h3>
 					<p>Plus d'informations</p></a>
 				</div>
