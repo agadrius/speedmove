@@ -25,7 +25,7 @@
 		<?php include 'include/menu.php';?><!-- menu includes -->
 
 		<!-- corps de la page -->
-			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact"  action="scripts/send_contact.php" method="post">
+			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact"  action="scripts/send_devis.php" method="post">
 				<div class="form-group has-feedback" id="name">
 					<label for="texte">votre nom et prénom(obligatoire) : </label>
 					<input name="nom" type="text" class="form-control" id="imput_name">
