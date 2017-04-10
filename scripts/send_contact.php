@@ -14,6 +14,7 @@ $name_form = $_POST['nom'];
 $tel_form = $_POST['telephone'];
 $mail_form = $_POST['email'];
 $message_form = $_POST['message'];
+date_default_timezone_set('Europe/Paris'); //date fr
 $date = date("d-m-Y");
 $heure = date("H:i");
 //==========
@@ -30,6 +31,8 @@ $message_html = "<html>
 						date : le " .$date. " à " .$heure."<br>
 						tel : " .$tel_form. "<br>
 						email : " .$mail_form. "<br>
+						<br>
+						<br>
 						<br>
 						<b>message :</b><br>
 						<b>---------------------------------------------------------------</b><br>
