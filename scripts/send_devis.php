@@ -1,5 +1,5 @@
-<?php
-$mail = 'lessire.florent@gmail.com'; // Déclaration de l'adresse de destination.
+ï»¿<?php
+$mail = 'lessire.florent@gmail.com'; // DÃ©claration de l'adresse de destination.
 if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) // On filtre les serveurs qui rencontrent des bogues.
 {
 	$passage_ligne = "\r\n";
@@ -9,28 +9,52 @@ else
 	$passage_ligne = "\n";
 }
 
-//=====données du formulaire
+//=====donnÃ©es du formulaire
 $name_form = $_POST['nom'];
 $tel_form = $_POST['telephone'];
 $mail_form = $_POST['email'];
 $service_form = $_POST['service'];
 $message_form = $_POST['message'];
+$date = date("d-m-Y");
+$heure = date("H:i");
 //==========
 
-//=====Déclaration des messages au format texte et au format HTML.
+//=====DÃ©claration des messages au format texte et au format HTML.
 
-$message_html = "<html><head></head><body><b>informations client :</b><br><br>nom : " .$name_form. "<br>tel : " .$tel_form. "<br> email : " .$mail_form. "<br>service : " .$service_form. "<br><br><b>message :</b><br><br> " .$message_form. "<br><br><br><br> voici un e-mail envoyé via <i>speed-move.be</i>.</body></html>";
+$message_html = "<html>
+					<head>
+					</head>
+					<body>
+						<b>informations client :</b><br>
+						<b>---------------------------------------------------------------</b><br>
+						de : " .$name_form. "<br>
+						date : le " .$date. " Ã  " .$heure."<br>
+						tel : " .$tel_form. "<br>
+						email : " .$mail_form. "<br>
+						service : " .$service_form. "<br>
+						<br>
+						<br>
+						<br>
+						<b>message :</b><br>
+						<b>---------------------------------------------------------------</b><br>
+						" .$message_form. "<br>
+						<br>
+						<br>
+						<br>
+						voici un e-mail envoyÃ© via <i>speed-move.be</i>.
+					</body>
+				</html>";
 //==========
  
-//=====Création de la boundary
+//=====CrÃ©ation de la boundary
 $boundary = "-----=".md5(rand());
 //==========
  
-//=====Définition du sujet.
+//=====DÃ©finition du sujet.
 $sujet = "Demande de devis";
 //=========
  
-//=====Création du header de l'e-mail.
+//=====CrÃ©ation du header de l'e-mail.
 $header = "From: \"" .$name_form. "\"<" .$mail_form. ">".$passage_ligne;
 $header.= "Reply-to: \"" .$name_form. "\" <" .$mail_form. ">".$passage_ligne;
 $header.= "MIME-Version: 1.0".$passage_ligne;
