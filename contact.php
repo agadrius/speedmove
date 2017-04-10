@@ -78,7 +78,7 @@
 			var message = verifier($("#imput_message"), $("#message"), $("#logo_message"), $("#error_message"));
 			
 			//condition envoi mail
-			if(name==true || tel==true || mail==true|| message==true){
+			if(name==true && tel==true && mail==true&& message==true){
 				return true;
 			}
 			else
