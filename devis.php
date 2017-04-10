@@ -25,11 +25,6 @@
 		<?php include 'include/menu.php';?><!-- menu includes -->
 
 		<!-- corps de la page -->
-		<section class="row" id="map">
-			<div class="map-responsive">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d765.400568894465!2d4.90047008403309!3d49.81444794641851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x802eea50caca5bc1!2sSpeed+Move!5e0!3m2!1sfr!2sbe!4v1490774102097" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-		</section>
 			<form class="col-md-offset-3 col-sm-offset-2 col-sm-8 col-md-6 " id="contact"  action="scripts/send_contact.php" method="post">
 				<div class="form-group has-feedback" id="name">
 					<label for="texte">votre nom et prénom(obligatoire) : </label>
