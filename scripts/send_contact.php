@@ -14,6 +14,8 @@ $name_form = $_POST['nom'];
 $tel_form = $_POST['telephone'];
 $mail_form = $_POST['email'];
 $message_form = $_POST['message'];
+$date = date("d-m-Y");
+$heure = date("H:i");
 //==========
 
 //=====Déclaration des messages au format texte et au format HTML.
@@ -24,15 +26,14 @@ $message_html = "<html>
 					<body>
 						<b>informations client :</b><br>
 						<b>---------------------------------------------------------------</b><br>
-						<br>
-						de : " .$name_form." ".$mail_form. "<br>
-						date :<br>
+						de: " .$name_form. "<br>
+						date : le " .$date. " à " .$heure."<br>
 						tel : " .$tel_form. "<br>
 						email : " .$mail_form. "<br>
 						<br>
 						<b>message :</b><br>
 						<b>---------------------------------------------------------------</b><br>
-						<br> " .$message_form. "<br>
+						" .$message_form. "<br>
 						<br>
 						<br>
 						<br> 
