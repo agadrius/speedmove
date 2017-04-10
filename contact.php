@@ -74,16 +74,16 @@
 			// test champ vide
 			var name = verifier($("#imput_name"), $("#name"), $("#logo_name"), $("#error_name"));
 			var tel = verifier($("#imput_tel"), $("#tel"), $("#logo_tel"), $("#error_tel"));
-			var mail = verifier($("#imput_mail"), $("#mail"), $("#logo_mail"), $("#error_mail"));
+			var mail = testMail($("#imput_mail").val());
 			var message = verifier($("#imput_message"), $("#message"), $("#logo_message"), $("#error_message"));
 			
 			//condition envoi mail
-			if(name==false || tel==false || mail==false || message==false){
-				return false;
+			if(name==true || tel==true || mail==true|| message==true){
+				return true;
 			}
 			else
 			{
-				return true;
+				return false;
 			}
 		});
 		
@@ -105,7 +105,27 @@
 				error.hide();
 				return true;
 			}
-		}	
+		}
+
+				function testMail(champ){ 
+			$("#mail").removeClass().addClass("form-group has-feedback"); // reset de la class div 
+			$("#logo_mail").removeClass().addClass("glyphicon form-control-feedback"); // reset de la class logo
+			var regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			if(regex.test(champ)==false){
+				$("#mail").addClass("has-error");
+				$("#logo_mail").addClass("glyphicon-remove");
+				$("#logo_mail").show();
+				$("#error_mail").show();
+				return false;
+			}
+			else{
+				$("#mail").addClass("has-success");
+				$("#logo_mail").addClass("glyphicon-ok");
+				$("#logo_mail").show();
+				$("#error_mail").hide();
+				return true;
+			}
+		}
 	});
 
   </script>
