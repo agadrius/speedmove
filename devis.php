@@ -44,6 +44,16 @@
 					<span class="glyphicon form-control-feedback" style="display:none" id="logo_mail"></span>
 					<span class="help-block" style="display:none" id="error_mail">adresse mail non valide ex: test@test.com</span>	
 				</div>
+				<div class="form-group has-feedback" id="service">
+					<label for="select">services (obligatoire) : </label>
+					<select name="service"  class="form-control">
+						<option>Taxi</option>
+						<option>Livraison de colis</option>
+						<option>Navette aéroport</option>
+						<option>Navette gare</option>
+						<option>Autres</option>
+					</select>
+				</div>
 				<div class="form-group has-feedback"  id="message">
 				  <label for="textarea">Votre message : </label>
 				  <textarea name="message" type="textarea" class="form-control" id="imput_message"></textarea>
