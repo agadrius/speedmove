@@ -39,13 +39,13 @@
 				</div>
 				<div class="form-group has-feedback" id="tel">
 					<label for="texte">votre téléphone(obligatoire) : </label>
-					<input name="telephone" type="text" class="form-control" id="imput_tel">
+					<input name="telephone" type="tel" class="form-control" id="imput_tel">
 					<span class="glyphicon form-control-feedback" style="display:none" id="logo_tel"></span>
 					<span class="help-block" style="display:none" id="error_tel">numero de telephone obligatoire</span>	
 				</div>
 				<div class="form-group has-feedback" id="mail">
 					<label for="texte">votre e-mail(obligatoire) : </label>
-					<input name="email" type="text" class="form-control" id="imput_mail">
+					<input name="email" type="email" class="form-control" id="imput_mail">
 					<span class="glyphicon form-control-feedback" style="display:none" id="logo_mail"></span>
 					<span class="help-block" style="display:none" id="error_mail">adresse mail non valide ex: test@test.com</span>	
 				</div>
