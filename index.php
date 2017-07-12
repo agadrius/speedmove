@@ -67,5 +67,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script src="//connect.facebook.net/fr_FR/sdk.js#xfbml=1&amp;version=v2.5"></script>
+	<script>
+  $(function () {
+    $('.carousel').carousel({ interval: 2000 });
+    $('#previous').click(function() { $('.carousel').carousel('prev'); }); 
+    $('#next').click(function() { $('.carousel').carousel('next'); });
+  });
+</script>
   </body>
 </html>
