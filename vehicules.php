@@ -38,6 +38,17 @@
 					<img src="images/multivan6-md.jpg" alt="multivan_5" class="col-xs-12 col-sm-6 col-md-4">
 				</div>
 			</div>
+			<div class ="col-md-12" id="golf">
+				<h2>Golf</h2>
+				<div class="row">
+					<img src="images/golf_md_1.jpg" alt="golf_1" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/golf_md_2.jpg" alt="golf_2" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/golf_md_3.jpg" alt="golf_3" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/golf_md_4.jpg" alt="golf_4" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/golf_md_5.jpg" alt="golf_5" class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/golf_md_6.jpg" alt="golf_6" class="col-xs-12 col-sm-6 col-md-4">
+				</div>
+			</div>
 			<div class ="col-md-12" id="remorque">
 				<h2>Remorque</h2>
 				<div class="row">
